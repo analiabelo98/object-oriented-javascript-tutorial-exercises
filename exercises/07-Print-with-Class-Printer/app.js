@@ -14,7 +14,9 @@ class Printer{
         return `My brand is ${this._brand} and my model ${this._model}`; 
     } 
     
-    //you can add new class functions here
+    getModel(){
+        return `${this._model}`
+    }
 }
 
 let epsonPrinter = new Printer();
